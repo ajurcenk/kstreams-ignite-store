@@ -15,12 +15,12 @@ git clone https://github.com/ajurcenk/kstreams-ignite-store.git
 cd kstreams-ignite-store
 ```
 
-## Running the test
+### Running the test
 ```bash
 mvn clean test
 ```
 
-## Running end to end example
+### Running end to end example
  Start local Kafka cluster (the project uses local Kafka and local Zookeeper servers (localhost:9092 for Kafka, and localhost:2181 for Zookeeper)
  ```bash
 # Change folder to bin
